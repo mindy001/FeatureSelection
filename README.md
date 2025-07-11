@@ -26,7 +26,7 @@ The dataset consists of 25 columns, including:
 
 ## Numerical Summary
 
-![Numerical Summary](images/numerical_summary.png)  
+![Numerical Summary](images/histograms.png)  
 *Summary statistics show wide variability in credit limits and bill amounts. Payment statuses tend to be slightly negative, indicating most clients pay on time.*
 
 ---
@@ -35,7 +35,7 @@ The dataset consists of 25 columns, including:
 
 ### Histograms and Boxplots of Key Features
 
-![Distribution and Outliers](images/distribution_outliers.png)  
+![Distribution and Outliers](images/boxplots.png)  
 - **LIMIT_BAL and AGE** show right-skewed distributions with some outliers.  
 - **Bill amounts (BILL_AMT1-6)** are mostly low but have occasional high outliers, indicating some clients max out their credit.  
 - **Payment amounts (PAY_AMT1-6)** cluster near zero with some large outliers, reflecting partial payments.  
